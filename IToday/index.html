@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./main.css.map">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- Swiper carousel -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="navbar container">
+            <nav class="nav-left g-flex">
+                <span class="menu-icon">
+                    <img src="./Hamburger.png" class="menu-open" alt="Menu">
+                    <i class="fas fa-times fa-2x" id="menu-close"></i>
+
+                </span>
+                <div class="logo toggle-logo">
+                    <a href="./index.html">I<span class="logo-style">TODAY</span></a>
+                </div>
+
+                <div class="links">
+                    <div class="logo">
+                        <a href="./index.html">I<span class="logo-style">TODAY</span></a>
+                    </div>
+                    <ul class="nav-list">
+                        <li class="nav-item nav-item-1">
+                            <a class="nav-link nav-link-1" href="./second-page.html">Top News</a> <i
+                                class="fas fa-chevron-right"></i>
+                            <div class="inner-list inner">
+                                <ul>
+                                    <li class="inner-item"><a class="inner-link" href="#">Lorem ipsum</a></li>
+                                    <li class="inner-item"><a class="inner-link" href="#">Lorem ipsum</a></li>
+                                    <li class="inner-item"><a class="inner-link" href="#">Lorem ipsum</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item nav-item-2">
+                            <a class="nav-link nav-link-2" href="./mission.html">Our Mission </a><i
+                                class="fas fa-chevron-right"></i>
+                            <div class="inner-list-2 inner">
+                                <ul>
+                                    <li class="inner-item"><a class="inner-link" href="#">Lorem ipsum</a></li>
+                                    <li class="inner-item"><a class="inner-link" href="#">Lorem ipsum</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item nav-item-3">
+                            <a class="nav-link nav-link-3" href="./index.html">ITODAY lite</a> <i class="fas fa-chevron-right"></i>
+
+                            <div class="inner-list-3 inner">
+                                <ul>
+                                    <li class="inner-item"><a class="inner-link" href="#">Lorem ipsum</a></li>
+                                    <li class="inner-item"><a class="inner-link" href="#">Lorem ipsum</a></li>
+                                    <li class="inner-item"><a class="inner-link" href="#">Lorem ipsum</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item nav-item-4">
+                            <a class="nav-link nav-link-4" href="./index.html">Biz haqimizda</a><i
+                                class="fas fa-chevron-right"></i>
+                            <div class="inner-list-4 inner">
+                                <ul>
+                                    <li class="inner-item"><a class="inner-link" href="#">Lorem ipsum</a></li>
+                                    <li class="inner-item"><a class="inner-link" href="#">Lorem ipsum</a></li>
+                                    <li class="inner-item"><a class="inner-link" href="#">Lorem ipsum</a></li>
+                                    <li class="inner-item"><a class="inner-link" href="#">Lorem ipsum</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item nav-item-5">
+                            <a class="nav-link nav-link-5" href="#">Fuqarolar Murojati</a>
+                            <i class="fas fa-chevron-right"></i>
+                            <div class="inner-list-5 inner">
+                                <ul>
+                                    <li class="inner-item"><a class="inner-link" href="#">Lorem ipsum</a></li>
+                                    <li class="inner-item"><a class="inner-link" href="#">Lorem Ipsum</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item nav-item-6">
+                            <a class="nav-link nav-link-6" href="#">Media</a><i class="fas fa-chevron-right"></i>
+                            <div class="inner-list-6 inner">
+                                <ul>
+                                    <li class="inner-item"><a class="inner-link" href="#">Lorem ipsum</a></li>
+                                    <li class="inner-item"><a class="inner-link" href="#">Lorem ipsum</a></li>
+                                    <li class="inner-item"><a class="inner-link" href="#">Lorem ipsum</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item nav-item-7">
+                            <a class="nav-link nav-link-7" href="#">Aloqa uchun</a> <i class="fas fa-chevron-right"></i>
+                            <div class="inner-list-7 inner">
+                                <ul>
+                                    <li class="inner-item"><a class="inner-link" href="#">Lorem ipsum</a></li>
+                                    <li class="inner-item"><a class="inner-link" href="#">Lorem ipsum</a></li>
+                                    <li class="inner-item"><a class="inner-link" href="#">Lorem ipsum</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="nav-right g-flex">
+                <h3>Search</h3>
+                <a class="btn" href="#">Sign In</a>
+            </div>
+        </div>
+    </div>
+    <div class="main container">
+        <h3 class="main-heading">Breaking News</h3>
+        <div class="news">
+            <div class="news-left">
+                <img src="./Rectangle 80.png" alt="News Image" class="news-img">
+                <div class="news-text">
+                    <h3 class="text-heading">What is Lorem Ipsum?</h3>
+                    <p class="secondary-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi
+                        corporis, quibusdam sequi cumque eos facilis repellendus nam incidunt alias exercitationem
+                        autem, illum delectus dolor repellat, vitae omnis architecto quisquam ut.
+                    </p>
+                </div>
+                <a href="#" class="btn-primary">More</a>
+            </div>
+            <div class="news-right">
+                <h3 class="text-heading">Latest</h3>
+                <a class="news-right-box" href="index.html">
+                    <p class="primary-paragraph">
+                        It was popularised in the 1960s with
+                        the release of Letraset sheets
+                        containing Lorem Ipsum passages,
+                        and more recently with
+                    </p>
+                    <small class="text-muted">By username</small>
+                    <small class="text-muted split">An hour ago</small>
+                </a>
+                <hr>
+                <a class="news-right-box" href="index.html">
+                    <p class="primary-paragraph">
+                        It was popularised in the 1960s with
+                        the release of Letraset sheets
+                        containing Lorem Ipsum passages,
+                        and more recently with
+                    </p>
+                    <small class="text-muted">By username</small>
+                    <small class="text-muted split">An hour ago</small>
+                </a>
+                <hr>
+                <a class="news-right-box" href="index.html">
+                    <p class="primary-paragraph">
+                        It was popularised in the 1960s with
+                        the release of Letraset sheets
+                        containing Lorem Ipsum passages,
+                        and more recently with
+                    </p>
+                    <small class="text-muted">By username</small>
+                    <small class="text-muted split">An hour ago</small>
+                </a>
+
+                <a href="#" class="btn-primary">More</a>
+            </div>
+        </div>
+
+        <!-- Info Table -->
+
+        <div class="info-table">
+            <div class="info-container">
+
+                <div class="info-box">
+                    <h3 class="info-heading">Times for namaz</h3>
+                    <div class="vertical-line-container">
+                        <span class="vertical-line">
+                            <h4>bomdod</h4>
+                            <p>05:10</p>
+                        </span>
+                        <span class="vertical-line">
+                            <h4>peshin</h4>
+                            <p>12:28</p>
+                        </span>
+                        <span class="vertical-line">
+                            <h4>asr</h4>
+                            <p>16:50</p>
+                        </span>
+                        <span class="vertical-line">
+                            <h4>shom</h4>
+                            <p>18:30</p>
+                        </span>
+                        <span class="vertical-line">
+                            <h4>xufton</h4>
+                            <p>19:56</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="info-box skewed ">
+                    <div class="no-skew">
+                        <h3 class="info-heading">Exchange Rate</h3>
+                        <div class="vertical-line-container">
+                            <span class="exchange-box">
+                                <h3>1 Rub - 111 UZS</h3>
+                                <h3>1 USD - 10500 UZS</h3>
+                            </span>
+                            <span class="exchange-box">
+                                <h3>1 UE - 12000UZS</h3>
+                                <h3>1 CNY - 6500 UZS</h3>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="info-box">
+                    <h3 class="info-heading">Weather</h3>
+                    <div class="vertical-line-container">
+                        <span class="weather-box">
+                            <img src="./Rectangle 71.png" alt="">
+                            <h3>15 deg</h3>
+                        </span>
+                        <span class="weather-box">
+                            <img src="./Rectangle 72.png" alt="">
+                            <h3>35 deg</h3>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Top news -->
+        <h3 class="main-heading">Top iT news</h3>
+        <div class="top-news">
+
+            <img class="reveal-img" src="./Rectangle 68.png" alt="">
+            <div class="clear"></div>
+            <div class="top-news-content">
+                <div class="top-news-text">
+                    <h3 class="secondary-heading">What is Lorem Ipsum?</h3>
+                    <p class="primary-paragraph">
+                        Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry. Lorem
+                        Ipsum has been the industry's standard
+                        dummy text ever since the 1500s
+                    </p>
+                    <a href="#" class="btn-primary">More</a>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="clear"></div>
+
+        <!-- Posts -->
+        <div class="post">
+            <div class="post-left">
+                <a href="index.html" class="post-box">
+                    <p class="primary-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
+                        nesciunt ducimus. Cum error, temporibus odit minus adipisci.
+                    </p>
+                    <small class="text-muted">By username</small> <small class="text-muted">13.08.2020</small>
+                </a>
+                <a href="index.html" class="post-box border-line">
+                    <div class="box-1">
+                        <p class="primary-paragraph">Covid vaccine: PM tohave AstraZeneca jab ashe urges public to do
+                            the same
+                        </p>
+                        <img src="./Rectangle 217.png" alt="Image">
+                    </div>
+                    <small class="text-muted">By username</small> <small class="text-muted">13.08.2020</small>
+                </a>
+                <a href="index.html" class="post-box">
+                    <p class="primary-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
+                        nesciunt ducimus. Cum error, temporibus odit minus adipisci, explicabo eius.
+                    </p>
+                    <small class="text-muted">By username</small> <small class="text-muted">13.08.2020</small>
+                </a>
+            </div>
+            <div class="post-right">
+                <a href="index.html"class="post-box">
+                    <div class="box-1">
+                        <img src="./Rectangle 218.png" alt="Image">
+                        <p class="primary-paragraph">
+                            Covid vaccine: PM tohave AstraZeneca jab ashe urges public to do the same
+                        </p>
+                    </div>
+                    <small class="text-muted">By username</small>
+                    <small class="text-muted">An Hour Ago</small>
+                </a>
+                <a href="index.html" class="post-box border-line">
+                    <p class="primary-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
+                        nesciunt ducimus. Cum error, temporibus odit minus adipisci.
+                    </p>
+                    <small class="text-muted">By username</small> <small class="text-muted">13.08.2020</small>
+                </a>
+                <a href="index.html" class="post-box">
+                    <div class="box-1">
+                        <img src="./Rectangle 219.png" alt="Image">
+                        <p class="primary-paragraph">
+                            Covid vaccine: PM tohave AstraZeneca jab ashe urges public to do the same
+                        </p>
+                    </div>
+                    <small class="text-muted">By username</small>
+                    <small class="text-muted">An Hour Ago</small>
+                </a>
+            </div>
+            <a href="#" class="btn-primary">More</a>
+        </div>
+        <!-- Carousel -->
+
+        <!-- Slider main container -->
+        <h3 class="main-heading" style="margin-bottom: 1rem;">Top business news</h3>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./Rectangle 62.png" />
+                    <p class="primary-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sint est
+                        fuga repudiandae accusantium autem vitae quam. Quis ducimus nemo, repudiandae dolor.fugit. <br>
+                        <small class="text-muted">By username</small> <small class="text-muted bordered">an hour
+                            ago</small>
+                    </p>
+
+                </div>
+                <div class="swiper-slide">
+                    <img src="./Rectangle 62.png" />
+                    <p class="primary-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sint est
+                        fuga repudiandae accusantium autem vitae..
+                        <br>
+                        <small class="text-muted">By username</small> <small class="text-muted bordered">an hour
+                            ago</small>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./Rectangle 62.png" />
+                    <p class="primary-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sint est
+                        fuga repudiandae accusantium autem vitae quam. Quis ducimus..
+                        <br>
+                        <small class="text-muted">By username</small> <small class="text-muted bordered">an hour
+                            ago</small>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./Rectangle 62.png" />
+                    <p class="primary-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sint est
+                        fuga repudiandae accusantium autem vitae quam. Quis ducimus nemo.fugit.
+                        <br>
+                        <small class="text-muted">By username</small> <small class="text-muted bordered">an hour
+                            ago</small>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./Rectangle 62.png" />
+                    <p class="primary-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sint est
+                        fuga repudiandae accusantium autem vitae quam.
+                        <br>
+                        <small class="text-muted">By username</small> <small class="text-muted bordered">an hour
+                            ago</small>
+                    </p>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <!-- Life style container -->
+        <h3 class="main-heading" style="margin: 1rem;">Life style</h3>
+        <div class="life-container">
+            <div class="life-content">
+                <div class="life-text">
+                    <h3 class="secondary-heading">What is Lorem Ipsum?</h3>
+                    <p class="primary-paragraph">
+                        Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry. Lorem
+                        Ipsum has been the industry's standard
+                        dummy text ever since the 1500s
+                    </p>
+                    <a href="#" class="btn-primary">More</a>
+                </div>
+            </div>
+            <img class="reveal-img-life" src="./Rectangle 59.png" alt="image">
+            <div class="clear"></div>
+        </div>
+        <div class="post">
+            <div class="post-left">
+                <div class="post-box">
+                    <p class="primary-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
+                        nesciunt ducimus. Cum error, temporibus odit minus adipisci.
+                    </p>
+                    <small class="text-muted">By username</small> <small class="text-muted">13.08.2020</small>
+                </div>
+                <div class="post-box border-line">
+                    <div class="box-1">
+                        <p class="primary-paragraph">Covid vaccine: PM tohave AstraZeneca jab ashe urges public to do
+                            the same
+                        </p>
+                        <img src="./Rectangle 57.png" alt="Image">
+                    </div>
+                    <small class="text-muted">By username</small> <small class="text-muted">13.08.2020</small>
+                </div>
+                <div class="post-box">
+                    <p class="primary-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
+                        nesciunt ducimus. Cum error, temporibus odit minus adipisci, explicabo eius.
+                    </p>
+                    <small class="text-muted">By username</small> <small class="text-muted">13.08.2020</small>
+                </div>
+            </div>
+            <div class="post-right">
+                <div class="post-box">
+                    <div class="box-1">
+                        <img src="./Rectangle 55.png" alt="Image">
+                        <p class="primary-paragraph">
+                            Covid vaccine: PM tohave AstraZeneca jab ashe urges public to do the same
+                        </p>
+                    </div>
+                    <small class="text-muted">By username</small>
+                    <small class="text-muted">An Hour Ago</small>
+                </div>
+                <div class="post-box border-line">
+                    <p class="primary-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
+                        nesciunt ducimus. Cum error, temporibus odit minus adipisci.
+                    </p>
+                    <small class="text-muted">By username</small> <small class="text-muted">13.08.2020</small>
+                </div>
+                <div class="post-box">
+                    <div class="box-1">
+                        <img src="./Rectangle 56.png" alt="Image">
+                        <p class="primary-paragraph">
+                            Covid vaccine: PM tohave AstraZeneca jab ashe urges public to do the same
+                        </p>
+                    </div>
+                    <small class="text-muted">By username</small>
+                    <small class="text-muted">An Hour Ago</small>
+                </div>
+            </div>
+        </div>
+        <h3 class="main-heading" style="padding: 1rem !important;">trends</h3>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./Rectangle 50.png" />
+                    <p class="primary-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sint est
+                        fuga repudiandae accusantium autem vitae quam. Quis ducimus nemo, repudiandae dolor.fugit. <br>
+                        <small class="text-muted">By username</small> <small class="text-muted bordered">an hour
+                            ago</small>
+                    </p>
+
+                </div>
+                <div class="swiper-slide">
+                    <img src="./Rectangle 50.png" />
+                    <p class="primary-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sint est
+                        fuga repudiandae accusantium autem vitae..
+                        <br>
+                        <small class="text-muted">By username</small> <small class="text-muted bordered">an hour
+                            ago</small>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./Rectangle 50.png" />
+                    <p class="primary-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sint est
+                        fuga repudiandae accusantium autem vitae quam. Quis ducimus..
+                        <br>
+                        <small class="text-muted">By username</small> <small class="text-muted bordered">an hour
+                            ago</small>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./Rectangle 50.png" />
+                    <p class="primary-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sint est
+                        fuga repudiandae accusantium autem vitae quam. Quis ducimus nemo.fugit.
+                        <br>
+                        <small class="text-muted">By username</small> <small class="text-muted bordered">an hour
+                            ago</small>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./Rectangle 50.png" />
+                    <p class="primary-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sint est
+                        fuga repudiandae accusantium autem vitae quam.
+                        <br>
+                        <small class="text-muted">By username</small> <small class="text-muted bordered">an hour
+                            ago</small>
+                    </p>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="sphere">
+            <div class="sphere-content">
+                <div class="sphere-left">
+                    <div class="sphere-box">
+                        <h3 class="sphere-heading">sphere</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error a in rem nemo voluptatibus
+                            distinctio id rerum eius architecto quos!</p>
+                        <small class="text-muted">by username</small> <small class="text-muted">a 2 hours ago</small>
+                    </div>
+                    <div class="sphere-box sphere-flexed">
+                        <div class="sphere-box-left">
+                            <h3 class="sphere-heading">sphere</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error a in rem nemo
+                                voluptatibus
+                                distinctio id rerum eius architecto quos!</p>
+                            <small class="text-muted">by username</small> <small class="text-muted">a 2 hours
+                                ago</small>
+                        </div>
+                        <img src="./Rectangle 47.png" alt="image">
+                    </div>
+                    <div class="sphere-box">
+                        <h3 class="sphere-heading">sphere</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error a in rem nemo voluptatibus
+                            distinctio id rerum eius architecto quos!</p>
+                        <small class="text-muted">by username</small> <small class="text-muted">a 2 hours ago</small>
+                    </div>
+                    <div class="sphere-box">
+                        <h3 class="sphere-heading">sphere</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error a in rem nemo voluptatibus
+                            distinctio id rerum eius architecto quos!</p>
+                        <small class="text-muted">by username</small> <small class="text-muted">a 2 hours ago</small>
+                    </div>
+                    <div class="sphere-box sphere-flexed">
+                        <div class="sphere-box-left">
+                            <h3 class="sphere-heading">sphere</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error a in rem nemo
+                                voluptatibus
+                                distinctio id rerum eius architecto quos!</p>
+                            <small class="text-muted">by username</small> <small class="text-muted">a 2 hours
+                                ago</small>
+                        </div>
+                        <img src="./Rectangle 47.png" alt="image">
+                    </div>
+                    <div class="sphere-box">
+                        <h3 class="sphere-heading">sphere</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error a in rem nemo voluptatibus
+                            distinctio id rerum eius architecto quos!</p>
+                        <small class="text-muted">by username</small> <small class="text-muted">a 2 hours ago</small>
+                    </div>
+                </div>
+                <div class="sphere-right">
+                    <div class="sphere-box sphere-flexed">
+                        <div class="sphere-box-left">
+                            <h3 class="sphere-heading">sphere</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis doloremque veritatis
+                                amet magni ad repudiandae.</p>
+                            <small class="text-muted">by username</small> <small class="text-muted">a 45 minutes
+                                ago</small>
+                        </div>
+                        <img src="./Rectangle 48.png" alt="image">
+                    </div>
+                    <div class="sphere-box">
+                        <h3 class="sphere-heading">sphere</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, vitae quidem quis nam totam
+                            veniam voluptate amet et veritatis, sunt tenetur vel.</p>
+                        <small class="text-muted">by username</small> <small class="text-muted">14 hours ago</small>
+                    </div>
+                    <div class="sphere-box sphere-flexed">
+                        <div class="sphere-box-left">
+                            <h3 class="sphere-heading">sphere</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis doloremque veritatis
+                                amet magni ad repudiandae.</p>
+                            <small class="text-muted">by username</small> <small class="text-muted">a 45 minutes
+                                ago</small>
+                        </div>
+                        <img src="./Rectangle 49.png" alt="image">
+                    </div>
+                    <div class="sphere-box sphere-flexed">
+                        <div class="sphere-box-left">
+                            <h3 class="sphere-heading">sphere</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis doloremque veritatis
+                                amet magni ad repudiandae.</p>
+                            <small class="text-muted">by username</small> <small class="text-muted">a 45 minutes
+                                ago</small>
+                        </div>
+                        <img src="./Rectangle 48.png" alt="image">
+                    </div>
+                    <div class="sphere-box">
+                        <h3 class="sphere-heading">sphere</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, vitae quidem quis nam totam
+                            veniam voluptate amet et veritatis, sunt tenetur vel.</p>
+                        <small class="text-muted">by username</small> <small class="text-muted">14 hours ago</small>
+                    </div>
+                    <div class="sphere-box sphere-flexed">
+                        <div class="sphere-box-left">
+                            <h3 class="sphere-heading">sphere</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis doloremque veritatis
+                                amet magni ad repudiandae.</p>
+                            <small class="text-muted">by username</small> <small class="text-muted">a 45 minutes
+                                ago</small>
+                        </div>
+                        <img src="./Rectangle 49.png" alt="image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+
+    </footer>
+
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./main.js" type="module"></script>
+</body>
+
+</html>
